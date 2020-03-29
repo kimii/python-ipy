@@ -65,10 +65,7 @@ IPv6ranges = {
     '00100000000000010001100'                       : 'ALLOCATED ARIN',         # 2001:1800::/23
     '00100000000000010001101'                       : 'ALLOCATED RIPE NCC',     # 2001:1a00::/23
     '0010000000000001000111'                        : 'ALLOCATED RIPE NCC',     # 2001:1c00::/22
-    '00100000000000010010'                          : 'ALLOCATED RIPE NCC',     # 2001:2000::/20
-    '001000000000000100110'                         : 'ALLOCATED RIPE NCC',     # 2001:3000::/21
-    '0010000000000001001110'                        : 'ALLOCATED RIPE NCC',     # 2001:3800::/22
-    '0010000000000001001111'                        : 'RESERVED',               # 2001:3c00::/22 Possible future allocation to RIPE NCC
+    '0010000000000001001'                           : 'ALLOCATED RIPE NCC',     # 2001:2000::/19
     '00100000000000010100000'                       : 'ALLOCATED RIPE NCC',     # 2001:4000::/23
     '00100000000000010100001'                       : 'ALLOCATED AFRINIC',      # 2001:4200::/23
     '00100000000000010100010'                       : 'ALLOCATED APNIC',        # 2001:4400::/23
@@ -86,8 +83,10 @@ IPv6ranges = {
     '001001100000'                                  : 'ALLOCATED ARIN',         # 2600::/12
     '00100110000100000000000'                       : 'ALLOCATED ARIN',         # 2610::/23
     '00100110001000000000000'                       : 'ALLOCATED ARIN',         # 2620::/23
+    '001001100010'                                  : 'ALLOCATED ARIN',         # 2630::/12
     '001010000000'                                  : 'ALLOCATED LACNIC',       # 2800::/12
     '001010100000'                                  : 'ALLOCATED RIPE NCC',     # 2a00::/12
+    '001010100001'                                  : 'ALLOCATED RIPE NCC',     # 2a10::/12
     '001011000000'                                  : 'ALLOCATED AFRINIC',      # 2c00::/12
     '00101101'                                      : 'RESERVED',               # 2d00::/8
     '0010111'                                       : 'RESERVED',               # 2e00::/7
